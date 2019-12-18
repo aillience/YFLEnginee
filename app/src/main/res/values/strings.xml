@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">帮哩帮哩</string>
+    <string name="myy">主页</string>
+    <string name="sort">分类</string>
+    <string name="all_commodity">全部商品</string>
+    <string name="shop">购物车</string>
+    <string name="my">我的</string>
+    <string name="default_error">出现异常</string>
+    <string name="default_test">测试一下</string>
+</resources>

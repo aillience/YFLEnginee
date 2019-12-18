@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawableTextView">
+        <attr name="alignCenter" format="boolean" />
+        <attr name="drawableLeftWidth" format="dimension" />
+        <attr name="drawableTopWidth" format="dimension" />
+        <attr name="drawableRightWidth" format="dimension" />
+        <attr name="drawableBottomWidth" format="dimension" />
+        <attr name="drawableLeftHeight" format="dimension" />
+        <attr name="drawableTopHeight" format="dimension" />
+        <attr name="drawableRightHeight" format="dimension" />
+        <attr name="drawableBottomHeight" format="dimension" />
+    </declare-styleable>
+
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        //设置窗口是否变暗:true变暗，false不变暗
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
